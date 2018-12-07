@@ -87,6 +87,8 @@ if [ -f $fname ]; then
 		cd ..
 	done
 	rm tsAssign.txt
+	cd ..
+	rm -r gitOdys2902
 
 else
 	echo "Wrong input. The files does not exist . At least in current directory"
