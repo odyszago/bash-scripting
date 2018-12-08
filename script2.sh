@@ -41,7 +41,6 @@ if [ -f $fname ]; then
 	done
 	for line in $(cat tsAssign.txt);
 	do
-	       	#echo $line
 		cd $line
 		find . -not -path '*/\.*' -type d > "d$line".txt
 		find . -not -path '*/\.*' | grep  ".txt"  > "f$line".txt

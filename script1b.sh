@@ -4,8 +4,8 @@ function Simul(){
 	 ans=$?
 	 l=${line1##*\//}
 	 l="${l////\\}"
-	 if [ $ans -eq 0 ];then
-	    if [ ! -f "$l".txt ];then
+	 if [ $ans -eq 0 ]; then
+	    if [ ! -f "$l".txt ]; then
 		    echo "$line1 INIT"
 		    echo $con > "$l".txt
 	     else
@@ -17,10 +17,7 @@ function Simul(){
 			     echo $con > "$l".txt
 			     rm "TEST".txt
 		     
-		     fi
-	   
-	   
-	   
+		     fi 
 	    fi
 	  else
 		echo "NOT VALID" > "$l".txt

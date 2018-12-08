@@ -19,10 +19,7 @@ for line in $(cat ts.txt);
 			     echo $con > "$l".txt
 			     rm "TEST".txt
 		     
-		     fi
-	   
-	   
-	   
+		     fi	   
 	    fi
 	  else
 		echo "NOT VALID" > "$l".txt
